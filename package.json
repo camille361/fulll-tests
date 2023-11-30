@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.3.0",
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^14.0.27",
+    "cucumber": "^6.0.7",
+    "mocha": "^10.2.0",
+    "sequelize-cli": "^6.6.2",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "cucumber-js --profile default",
+    "test-mocha": "mocha --recursive test/**/*.js",
+    "create": "./fleet create",
+    "register-vehicle": "./fleet register-vehicle",
+    "localize-vehicle": "./fleet localize-vehicle"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "pg": "^8.11.3",
+    "ramda": "^0.29.1",
+    "sequelize": "^6.35.1"
+  }
+}

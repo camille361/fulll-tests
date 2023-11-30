@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+const { program } = require('commander');
+const FleetCLI = require('./src/CLI/FleetCLI');
+
+program.version('1.0.0');
+
+program.command('create <userId>').action(userId => FleetCLI.create(userId));
+
+program.command('register-vehicle <fleetId> <vehiclePlateNumber>').action((fleetId, vehiclePlateNumber) => FleetCLI.registerVehicle(fleetId, vehiclePlateNumber));
+program.command('localize-vehicle <fleetId> <vehiclePlateNumber> <lat> <lng> [alt]').action((fleetId, vehiclePlateNumber, lat, lng, alt) => FleetCLI.localizeVehicle(fleetId, vehiclePlateNumber, lat, lng, alt));
+program.parse(process.argv);
