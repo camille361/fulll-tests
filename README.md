@@ -1,6 +1,6 @@
 ## Tests techniques Camille LANGRAND
 
-Voici comme convenu l'exercice "Algo" en Javascript et en Typescript (fichiers "FizzBuzz_Camille_Langrand.js" et "FizzBuzz_Camille_Langrand.ts") ainsi que l'exercice "Backend" (dossier "project").
+Voici comme convenu l'exercice "Algo" en Javascript et en Typescript (fichiers "FizzBuzz_Camille_Langrand.js" et "FizzBuzz_Camille_Langrand.ts") ainsi que l'exercice "Backend" (branch "exo2-branch").
 J'ai envoyé par mail à Mélisande des captures d'écran pour montrer la validation des différentes étapes du projet.
 
 
